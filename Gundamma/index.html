@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Quiz 🎉</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Birthday, My Other Half! 🎂</h1>
+        <p>Answer these questions to unlock your birthday surprise! 🎁</p>
+
+        <div id="quiz">
+            <p><strong>1. What's our favorite thing to do together?</strong></p>
+            <input type="text" id="q1" placeholder="Type your answer...">
+
+            <p><strong>2. When did we first meet?</strong></p>
+            <input type="text" id="q2" placeholder="Type your answer...">
+
+            <p><strong>3. What’s my nickname for you?</strong></p>
+            <input type="text" id="q3" placeholder="Type your answer...">
+
+            <button onclick="checkAnswers()">Submit</button>
+        </div>
+
+        <div id="result" class="hidden">
+            <h2>🥳 Congratulations! You got it right! 🥳</h2>
+            <p>You're my best friend, my other half, and the most amazing person! 💖</p>
+            <p>Wishing you endless happiness and love! 🎈🎂</p>
+            <img src="images/gundamma1.jpg" alt="gg" width="200">
+
+        </div>
+
+        <!-- Background Music -->
+        <audio id="partyMusic" src="party-music.mp3"></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
